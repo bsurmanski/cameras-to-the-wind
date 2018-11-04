@@ -32,8 +32,8 @@ other than curiosity and shared responsibility.
 
 # FAQ
 ## I took a picture, what now?
-Send us an email with the camera name (written on on tag). When (and *if*) we
-get the camera back we'll post the pictures onto the site and let you know.
+Send us an email with the camera name (written on the tag). When (and *if*) we
+get the camera back we'll post the pictures onto the site and email you back.
 
 ## Will the pictures be shared publicly?
 No. The pictures will only be shared with those who participated with a given
