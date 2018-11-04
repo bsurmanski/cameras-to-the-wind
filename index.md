@@ -5,7 +5,7 @@
 layout: home
 ---
 
-# What the heck is this?
+# What Is This?
 We bought a bunch of disposable cameras and handed them out to friends. We asked
 them to take a picture or two and pass the camera on.
 
@@ -29,7 +29,6 @@ other than curiosity and shared responsibility.
 * Prefer sunlit, outdoor scenes. Again, too little light is often a problem.
 * Follow the “grandma” rule. Don’t take pictures of anything you wouldn’t show
   your grandma. Keep it PG please.
-* Please respect the project.
 
 # FAQ
 ## I took a picture, what now?
