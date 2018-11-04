@@ -1,0 +1,20 @@
+---
+runtime: go
+api_version: go1
+default_expiration: 300s
+handlers:
+- url: "/404.html"
+  static_files: _site/404.html
+  upload: _site/404.html
+- url: "/"
+  static_files: _site/index.html
+  upload: _site/index.html
+- url: "/assets/main.css"
+  static_files: _site/assets/main.css
+  upload: _site/assets/main.css
+- url: "/Makefile"
+  static_files: _site/Makefile
+  upload: _site/Makefile
+- url: "/assets/minima-social-icons.svg"
+  static_files: _site/assets/minima-social-icons.svg
+  upload: _site/assets/minima-social-icons.svg
