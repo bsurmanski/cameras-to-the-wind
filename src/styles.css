@@ -1,0 +1,126 @@
+/*
+ * Common
+ */
+
+* {
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+body {
+  margin: 0;
+  background-color: black;
+  color: white;
+}
+
+h1, h2 {
+  font-family: "American Typewriter";
+}
+
+h1 {
+  font-size: 3em;
+  font-weight: 600;
+  letter-spacing: 0.25em;
+  margin-bottom: 0.25em;
+}
+
+h2 {
+  font-size: 1.5em;
+  font-weight: 400;
+}
+
+/*
+ * Hero
+ */
+
+.hero {
+  background-image: url("/img/bg.jpg");
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: black;
+}
+
+
+.flying-cameras {
+  font-size: 3em;
+}
+
+.flying-camera {
+  position: absolute;
+  animation: fadeIn 5s ease;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/*
+ * Details
+ */
+
+.details {
+  color: white;
+  max-width: 40em;
+  margin: 0 auto;
+  padding: 2em;
+  line-height: 1.8;
+  font-family: "roboto"
+}
+
+.details li {
+  padding-bottom: 0.8em;
+}
+
+.details h2 {
+    color: #bbb;
+}
+
+.details h2 + h2 {
+  padding-top: 1em;
+}
+
+.details a {
+  style: none;
+  color: #bbb;
+}
+
+.details a:hover {
+  color: #777;
+}
+
+/*
+ * Footer
+ */
+
+.footer {
+  background-color: #bbb;
+  color: #000;
+  font-family: "Roboto";
+  font-size: 1em;
+  margin: 0;
+  padding: 1em 2em;
+}
+
+.footer .contact::before {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 400;
+  content: '\f0e0 ';
+  display: none;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+}
