@@ -1,6 +1,7 @@
 _site
 dist
 .sass-cache
+.gulp-scss-cache
 .jekyll-metadata
 Gemfile.lock
 .DS_Store

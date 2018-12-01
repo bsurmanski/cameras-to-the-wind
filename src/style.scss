@@ -1,5 +1,5 @@
 /*
- * Common
+ * Common!
  */
 
 * {
@@ -78,28 +78,29 @@ h2 {
   padding: 2em;
   line-height: 1.8;
   font-family: "roboto"
-}
 
-.details li {
-  padding-bottom: 0.8em;
-}
+  li {
+    padding-bottom: 0.8em;   
+  }
 
-.details h2 {
+  h2 {
     color: #bbb;
+  }
+
+  h2 + h2 {
+    padding-top: 1em; 
+  }
+
+  a {
+    style: none;
+    color: #bbb; 
+  }
+
+  a:hover {
+    color: #777;
+  }
 }
 
-.details h2 + h2 {
-  padding-top: 1em;
-}
-
-.details a {
-  style: none;
-  color: #bbb;
-}
-
-.details a:hover {
-  color: #777;
-}
 
 /*
  * Footer

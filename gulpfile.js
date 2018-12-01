@@ -1,4 +1,5 @@
 const { src, dest, parallel, watch } = require('gulp');
+var scss = require('gulp-scss');
 var del = require('del');
 
 function clean() {
@@ -10,8 +11,9 @@ function html() {
     .pipe(dest('dist/'));
 }
 
-function css() {
-    return src('src/*.css')
+function scss() {
+    return src('src/*.scss')
+    .pipe(scss())
     .pipe(dest('dist/'));
 }
 
@@ -25,7 +27,8 @@ function img() {
     .pipe(dest('dist/img'));
 }
 
-
 exports.clean = clean;
-exports.default = parallel(html, css, js, img);
-//exports.watch = watch(parallel(html, css, js, img));
+exports.default = parallel(html, scss, js, img);
+exports.watch = function() {
+    watch('src/*.scss', scss);
+}
