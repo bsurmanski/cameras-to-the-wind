@@ -9,6 +9,7 @@
   "author": "Brandon Surmanski <b.surmanski@gmail.com>",
   "license": "ISC",
   "devDependencies": {
+    "del": "^3.0.0",
     "gulp": "^4.0.0"
   }
 }
