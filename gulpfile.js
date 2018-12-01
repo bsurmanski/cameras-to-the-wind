@@ -11,7 +11,7 @@ function html() {
     .pipe(dest('dist/'));
 }
 
-function scss() {
+function css() {
     return src('src/*.scss')
     .pipe(scss())
     .pipe(dest('dist/'));
@@ -27,8 +27,8 @@ function img() {
     .pipe(dest('dist/img'));
 }
 
+exports.default = parallel(html, css, js, img);
 exports.clean = clean;
-exports.default = parallel(html, scss, js, img);
 exports.watch = function() {
-    watch('src/*.scss', scss);
+    return watch('src/*.scss', css);
 }
