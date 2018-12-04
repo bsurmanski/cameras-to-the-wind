@@ -2,6 +2,8 @@
  * Common
  */
 
+@import url('https://fonts.googleapis.com/css?family=Anonymous+Pro');
+
 * {
   box-sizing: border-box;
   overflow-x: hidden;
@@ -14,7 +16,7 @@ body {
 }
 
 h1, h2 {
-  font-family: "American Typewriter";
+  font-family: 'Anonymous Pro', monospace;
 }
 
 h1 {
@@ -54,6 +56,7 @@ h2 {
 
 .flying-cameras {
   font-size: 3em;
+  color: black;
 }
 
 .flying-camera {
